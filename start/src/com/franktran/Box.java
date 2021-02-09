@@ -1,10 +1,10 @@
 package com.franktran;
 
-public class Box {
+public class Box<T> {
 
-    private Object contents;
+    private T contents;
 
-    void add(Object thing) {
+    void add(T thing) {
         if (contents == null) {
             contents = thing;
         } else {
@@ -12,12 +12,12 @@ public class Box {
         }
     }
 
-    Object remove() {
+    T remove() {
         if (contents == null) {
             System.out.println("The box is empty.");
             return null;
         } else {
-            Object thing = contents;
+            T thing = contents;
             contents = null;
             return thing;
         }

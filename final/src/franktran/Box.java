@@ -1,6 +1,6 @@
 package franktran;
 
-public class Box<T> {
+public class Box<T extends Food & Drinkable> {
 
     private T contents;
 

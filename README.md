@@ -1,1 +1,1 @@
-In this section we'll learn more about generics and implement our first type parameter!
+In this section we'll learn how to use type parameters with functions!
