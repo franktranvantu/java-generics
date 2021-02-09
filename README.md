@@ -1,1 +1,1 @@
-Learn how to pass type parameters to Objects or functions in this course on generics!
+In this section we'll take a look at the kinds of problems we can run into without generics!
