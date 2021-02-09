@@ -1,1 +1,1 @@
-In this section we'll take a look at the kinds of problems we can run into without generics!
+In this section we'll learn more about generics and implement our first type parameter!

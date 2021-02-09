@@ -6,13 +6,13 @@ public class Main {
         Milk milk = new Milk();
         Oranges oranges = new Oranges();
 
-        Box boxOfMilk = new Box();
-        Box boxOfOranges = new Box();
+        Box<Milk> boxOfMilk = new Box<>();
+        Box<Oranges> boxOfOranges = new Box<>();
 
-        boxOfMilk.add(oranges);
-        boxOfOranges.add(milk);
+        boxOfMilk.add(milk);
+        boxOfOranges.add(oranges);
 
-        ((Milk)boxOfMilk.remove()).drink();
-        ((Oranges)boxOfOranges.remove()).juggle();
+        boxOfMilk.remove().drink();
+        boxOfOranges.remove().juggle();
     }
 }
