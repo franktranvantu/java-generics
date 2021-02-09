@@ -1,4 +1,4 @@
-package com.franktran;
+package franktran;
 
 class Oranges {
 
