@@ -1,0 +1,1 @@
+Learn how to pass type parameters to Objects or functions in this course on generics!
